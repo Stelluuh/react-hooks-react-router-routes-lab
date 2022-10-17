@@ -12,14 +12,14 @@ function App() {
       {/*{code here}*/}
       <NavBar />
       <Switch>
-        <Route path="/Actors">
-          <Actors />
+        <Route path="/movies">
+          <Movies />
         </Route>
-        <Route path="/Directors">
+        <Route path="/directors">
           <Directors />
         </Route>
-        <Route path="/Movies">
-          <Movies />
+        <Route path="/actors">
+          <Actors />
         </Route>
         <Route exact path="/">
           <Home/>
