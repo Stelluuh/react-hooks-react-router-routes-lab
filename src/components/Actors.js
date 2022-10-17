@@ -3,7 +3,7 @@ import { actors } from "../data";
 
 function Actors() {
   const actorsInfo = actors.map(actor => (
-    <div key={actor}>
+    <div key={actor.name}>
       <h3>Name: {actor.name}</h3>
       <p>Movies:</p>
       <ul>
